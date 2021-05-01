@@ -1,0 +1,10 @@
+module.exports = {
+  DATABASE_URL: 'development-database-url',
+  JWT_SECRET: '',
+  JWT_EXPIRES_IN: '', // Ex: 10d, 30d, 90d etc
+  JWT_COOKIE_EXPIRES_IN: 90, //Ex: 10, 20, 30, 90 etc
+  CLOUDINARY_NAME: '',
+  CLOUDINARY_API_KEY: 1,
+  CLOUDINARY_API_SECRET_KEY: '',
+  DEFAULT_USER_PHOTO: 'default-photo-url'
+};
